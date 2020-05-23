@@ -20,6 +20,22 @@ header h1 {
 	display: inline-block;
 }
 
+h2 {
+	padding: 20px;
+	font-variant: small-caps;
+	font-style: italic;
+	font-size: 30px;
+	
+}
+
+h3 {
+	padding: 20px;
+	font-size: 24px;
+	font-variant: small-caps;
+	font-style: italic;
+	
+}
+
 header h1 a {
 	color: white;
 	text-decoration: none;
@@ -65,9 +81,10 @@ td, th {
 
 p#p1 {
 	text-align: justify;
-	font-size: 20px;
+	font-size: 18px;
 	margin-left: 5%;
-	margin-right: 40%;
+	margin-right: 10%;
+	font-family: arial;
 }
 
 p#p2 {
@@ -81,9 +98,9 @@ img {
 }
 
 figure#fig1 {
-  margin-left: 65%;	
-  margin-right: 5%;
-  float: right;
+  margin-left: auto;	
+  margin-right: auto;
+  padding: 25px;
 }
 
 figure#fig2 {
@@ -103,6 +120,25 @@ figcaption#cap2 {
 	font-variant: small-caps;
 	padding: 5%;
 	font-size: 25px;
+}
+
+.image-txt-container {
+  display:flex;
+  align-items:center;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-right: 10%;
+}
+
+spec {
+	color: red;
+	font-weight: bold;
+}
+
+ul#item1 {
+	margin-left: 10%;
+	margin-bottom: 10%;
+	font-size: 20px;
 }
 
 footer{
