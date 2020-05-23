@@ -1,0 +1,110 @@
+body {
+margin: 0;
+}
+
+html {
+	background: Khaki;
+	
+}
+
+header {
+	background: Olive;
+	color: white;
+	margin: 0;
+	padding: 20px 0px 15px 15px;
+	font-family: arial;
+	font-variant: small-caps;
+}
+
+header h1 {
+	display: inline-block;
+}
+
+header h1 a {
+	color: white;
+	text-decoration: none;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0 0 0 15px;
+	display: inline;
+}
+
+nav ul li {
+	color: white;
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px 15px;
+	margin: 0;
+}
+
+nav u1 li a:hover{
+	background-color: green;
+}
+
+nav ul li a {
+	color: white;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin-left:10%; 
+  margin-right:10%;
+  margin-top:3%;
+}
+
+td, th {
+  border: 2px solid black;
+  text-align: center;
+  padding: 8px;
+  background-color: Moccasin
+}
+
+p#p1 {
+	text-align: justify;
+	font-size: 20px;
+	margin-left: 5%;
+	margin-right: 40%;
+}
+
+p#p2 {
+	text-align: center;
+	font-size: 20px;
+	
+}	
+
+img {
+	border-radius: 15px;
+}
+
+figure#fig1 {
+  margin-left: 65%;	
+  margin-right: 5%;
+  float: right;
+}
+
+figure#fig2 {
+	display: flex;
+	align-items: center;
+}
+
+figcaption#cap1 {
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+  caption-side: bottom;
+}
+
+figcaption#cap2 {
+	font-style: italic;
+	font-variant: small-caps;
+	padding: 5%;
+	font-size: 25px;
+}
+
+footer{
+	clear: both;
+}
